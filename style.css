@@ -87,7 +87,9 @@ input{
 /*?----HEADER----------------------------- */
 
 .header {
-	padding-top: 35px;
+	padding-top: 22px;
+	height: 43px;
+	border-bottom: 1px solid #D4E7FE;
 }
 .header__container {
 }
