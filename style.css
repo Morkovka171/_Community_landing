@@ -203,6 +203,7 @@ input{
 	line-height: 12px;
 	text-align: center;
 	width: fit-content;
+	align-self: center;
 }
 .block-text__title {
 	padding-top: 20px;
