@@ -130,18 +130,18 @@ input{
 	
 }
 .menu__input{
-	background: url(../images/search.svg) 9px 9px no-repeat;
+	background: url(images/search.svg) 0px 20px no-repeat;
 	margin-right: 42px;
 	width: 105px;
-	height: 32px;
+	height: 51px;
 	border-bottom: 1px solid #E5E5E5;
-	padding-bottom: 18px;
+	padding-left: 15px;
 }
 .menu__input::placeholder{
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
-	text-align: center;
+	/* text-align: center; */
 	color: #686868;
 	
 }
