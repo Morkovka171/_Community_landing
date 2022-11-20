@@ -150,9 +150,7 @@ input{
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
-	/* text-align: center; */
 	color: #686868;
-	
 }
 .header__menu__button-input{
 	text-align: center;
@@ -209,8 +207,6 @@ input{
 	display: flex;
 	flex-direction: column;
 }
-.block-text {
-}
 .solutions__link_btn {
 	padding: 12px 30px;
 	background-color: rgba(33, 123, 244, 0.1);
@@ -227,8 +223,6 @@ input{
 	padding-top: 20px;
 	padding-bottom: 18px;
 }
-.title {
-}
 .block-text__text {
 	font-weight: 400;
 	font-size: 18px;
@@ -236,8 +230,6 @@ input{
 	padding-bottom: 42px;
 	text-align: center;
 	
-}
-.solutions__btn {
 }
 .block-text__button {
 	padding: 24px 42px;
@@ -256,11 +248,6 @@ input{
 	padding: 24px 42px;
 	text-align: center;
 }
-
-.solutions__image {
-
-}
-
 .solutions__image {
 	display: block;
 	position: relative;
@@ -287,7 +274,6 @@ input{
 		padding-right: 20px;
 	}
 }
-
 @media (max-width: 1010px){
 	.solutions__container {
 		display: flex;
@@ -345,5 +331,94 @@ input{
 	}
 	.block-text__button_invite{
 		font-size: 12px;	
+	}
+}
+
+/*?----SOCIAL----------------------------- */
+
+.social {
+	padding-top: 99px;
+	padding-bottom: 99px;
+}
+.social__container {
+	display: flex;
+	column-gap: 200px;
+}
+.social__content {
+}
+.social__block-text {
+}
+.block-text {
+}
+.social__sub-title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+	color: #217BF4;
+	padding-bottom: 20px;
+}
+.block-text__tittle {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	color: #0A093D;
+	padding-bottom: 16px;
+}
+.block-text__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #656464;
+	text-align: left;
+	padding-bottom: 36px;
+}
+.social__item{
+	background: url(../images/Social/dotts.svg) no-repeat;
+	padding-left: 30px;
+	padding-bottom: 16px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+	color: #171648;
+}
+.social__list {
+}
+.social__items {
+}
+
+.social____media {
+}
+.media-social {
+}
+.media-social__image {
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+.box1{
+	grid-row: span 2;
+}
+
+@media (max-width: 1210.98px){
+	.social__container {
+		display: flex;
+		column-gap: 50px;
+	}
+}
+@media (max-width: 1010.98px){
+	.social__container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.social__item:last-child{
+		padding-bottom: 50px;
+	}
+	.media-social__image {
+		grid-template-columns: repeat(2, 270px);
+		align-items: center;
+		justify-content: center;
 	}
 }
