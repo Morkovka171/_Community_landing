@@ -188,6 +188,8 @@ input{
 }
 .solutions__block-text {
 	padding-right: 69px;
+	display: flex;
+	flex-direction: column;
 }
 .block-text {
 }
@@ -200,6 +202,7 @@ input{
 	font-size: 12px;
 	line-height: 12px;
 	text-align: center;
+	width: fit-content;
 }
 .block-text__title {
 	padding-top: 20px;
