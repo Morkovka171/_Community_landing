@@ -169,6 +169,60 @@ input{
 	}
 
 
-/*?----HEADER----------------------------- */
+/*?----SOLUTIONS----------------------------- */
 
+.solutions {
+	padding-top: 126px;
+	padding-bottom: 47px;
+	background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+.solutions__container {
+	display: flex;
+}
+.solutions__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.solutions__block-text {
+}
+.block-text {
+}
+.solutions__link_btn {
+	padding: 12px 30px;
+	background-color: rgba(33, 123, 244, 0.1);
+	border-radius: 8px;
+	color: #217BF4;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+}
+.block-text__title {
+	padding-top: 20px;
+	padding-bottom: 18px;
+}
+.title {
+}
+.block-text__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	padding-bottom: 42px;
+}
+.solutions__btn {
+}
+.block-text__button {
+}
+.block-text__button_invite{
+	background-color: inherit;
+	border: 1px solid rgba(33, 123, 244, 0.5);;
+	border-radius: 14px;
+	color: #217BF4;
+	padding: 24px 42px;
+}
+
+.solutions__image {
+}
 
