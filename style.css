@@ -164,6 +164,9 @@ input{
 	padding: 18px 43px;
 	color: #fff;
 }
+.button:hover {
+	background: #1c66c7;
+}
 @media (max-width: 992px) {
 	.header__container {
 	display: flex;
@@ -217,6 +220,11 @@ input{
 	text-align: center;
 	width: fit-content;
 	align-self: center;
+	border: 1px solid rgba(33, 123, 244, 0.1);
+}
+.solutions__link_btn:hover {
+	background-color: inherit;
+	border: 1px solid rgba(33, 123, 244, 0.5);
 }
 .block-text__title {
 	padding-top: 20px;
@@ -239,6 +247,9 @@ input{
 	margin-right: 18px;
 	text-align: center;
 }
+.block-text__button:hover {
+	background: #1c66c7;
+}
 .block-text__button_invite{
 	background-color: inherit;
 	border: 1px solid rgba(33, 123, 244, 0.5);;
@@ -246,6 +257,9 @@ input{
 	color: #217BF4;
 	padding: 24px 42px;
 	text-align: center;
+}
+.block-text__button_invite:hover{
+background-color: rgba(33, 123, 244, 0.1);
 }
 .solutions__image {
 	display: block;
@@ -343,12 +357,6 @@ input{
 	display: flex;
 	column-gap: 200px;
 }
-.social__content {
-}
-.social__block-text {
-}
-.block-text {
-}
 .social__sub-title {
 	font-weight: 500;
 	font-size: 18px;
@@ -362,6 +370,7 @@ input{
 	line-height: 48px;
 	color: #0A093D;
 	padding-bottom: 16px;
+	padding-top: 10px;
 }
 .block-text__text {
 	font-weight: 400;
@@ -379,15 +388,6 @@ input{
 	font-size: 18px;
 	line-height: 18px;
 	color: #171648;
-}
-.social__list {
-}
-.social__items {
-}
-
-.social____media {
-}
-.media-social {
 }
 .media-social__image {
 	display: grid;
@@ -442,4 +442,205 @@ input{
 		font-size: 25px;
 		line-height: 35px;
 	}
+}
+
+/*?----RATING----------------------------- */
+
+.rating {
+	padding-top: 84px;
+	padding-bottom: 140px;
+}
+.rating__container {
+	display: flex;
+}
+.rating__content {
+	box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+	border-radius: 14px;
+	padding-bottom: 40px;
+	padding-top: 46px;
+	padding-left: 44px;
+	padding-right: 18px;
+	border: 1px solid rgba(185, 185, 185, 0.12);
+	transition: box-shadow 0.3s ease 0s;
+}
+.rating__content:hover {
+	box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
+}
+	.raiting__awards{
+	display: flex;
+	column-gap: 24px;
+	align-items: flex-start;
+	justify-content: start;
+	text-align: left;
+}
+.rating__title {
+	background: url(../images/Rating/Star.svg) 0 0 no-repeat;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+	color: #0A093D;
+	padding-left: 38px;
+	padding-bottom: 36px;
+	padding-top: 4px;
+}
+.rating__subtitle {
+	background: url(../images/Rating/people.jpg) 0 0 no-repeat;
+	font-weight: 500;
+	line-height: 18px;
+	color: #5D5B70;
+	padding-bottom: 40px;
+	padding-left: 67px;
+}
+.rating__subtitle span{
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	color: #217BF4;
+}
+
+.rating__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #8C8C8C;
+	padding-bottom: 40px;
+}
+.rating__link {
+	background: url(../images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
+	font-weight: 500;
+	line-height: 16px;
+	color: #4A4A56;
+	padding-right: 20px;
+}
+.rating__link:hover {
+	color: #217BF4;
+	background: url(../images/Rating/ArrowRight.svg) 164px 6px no-repeat;
+}
+.awards__content {
+	box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+	border-radius: 14px;
+	padding-bottom: 40px;
+	padding-top: 46px;
+	padding-left: 44px;
+	padding-right: 18px;
+	border: 1px solid rgba(185, 185, 185, 0.12);
+	transition: box-shadow 0.3s ease 0s;
+}
+.awards__content:hover {
+	box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
+}
+.awards__title {
+	background: url(../images/Rating/Trophy.svg) 0 -4px no-repeat;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+	color: #0A093D;
+	padding-left: 38px;
+	padding-bottom: 42px;
+}
+.awards__subtitle {
+	background: url(../images/Rating/git.jpg) 0 -1px no-repeat;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #5D5B70;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+.awards__subtitle span{
+	color: #217BF4;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 18px;
+}
+.awards__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #8C8C8C;
+	padding-bottom: 40px;
+}
+.awards__link {
+	color: #4A4A56;
+	background: url(../images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
+	font-weight: 500;
+	line-height: 16px;
+	padding-right: 20px;
+}
+.awards__link:hover {
+	color: #217BF4;
+	background: url(../images/Rating/ArrowRight.svg) 164px 6px no-repeat;
+}
+.achiev__content {
+	padding-left: 93px;
+
+}
+.achiev__title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+	color: #217BF4;
+	padding-bottom: 10px;
+}
+.achiev__subtitle {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	color: #0A093D;
+	padding-bottom: 18px;
+}
+.achiev__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #656464;
+}
+.achiev__links{
+	margin-top: 62px;
+}
+.achiev__link {
+	background: url(../images/Rating/ArrowRightwhite.svg) 140px 25px no-repeat;
+	background-color: #217BF4;
+	box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+	border-radius: 14px;
+	padding: 22px  74px  22px 38px;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+}
+.achiev__link:hover {
+	background-color: #1c66c7;
+}
+@media (max-width: 1210.98px){
+	.rating__container {
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.raiting__awards{
+		padding-bottom: 50px;
+	}
+	.achiev__content{
+		max-width: 700px;
+		padding-bottom: 60px;
+		padding-left: 0;
+		text-align: center;
+	}
+	
+}
+@media (max-width: 724.98px){
+	.raiting__awards{
+		flex-wrap: wrap;
+		
+		justify-content: center;
+		align-items: center;
+		row-gap: 20px;
+	}
+.rating {
+	padding-top: 54px;
+	padding-bottom: 50px;
+}
 }
