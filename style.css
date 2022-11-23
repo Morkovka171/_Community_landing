@@ -728,6 +728,9 @@ background-color: rgba(33, 123, 244, 0.1);
 	}
 }
 
+/*?----MEMBERS----------------------------- */
+
+
 .tabs-deals__item {
 	display: none;
 }
@@ -809,15 +812,6 @@ background-color: rgba(33, 123, 244, 0.1);
 	letter-spacing: 0.01em;
 	color: #FFFFFF;
 }
-.active {
-	
-}
-.tabs-deals__body {
-}
-.tabs-deals__item {
-}
-.item-tabs {
-}
 .item-tabs__items {
 	display: flex;
 	column-gap: 30px;
@@ -849,3 +843,26 @@ background-color: rgba(33, 123, 244, 0.1);
 	color: #656464;
 }
 
+@media (max-width: 1280px) {
+	.item-tabs__items{
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 30px;
+	}
+	.members {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+@media (max-width: 767.98px) {
+	.members {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 767.98px) {
+	.tabs-members__nav {
+		width: 100%;
+		height: 72px; 
+	}
+}
