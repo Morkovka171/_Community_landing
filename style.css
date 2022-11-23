@@ -776,41 +776,33 @@ background-color: rgba(33, 123, 244, 0.1);
 	text-align: center;
 }
 
-.tabs-members__nav{
-	
-}
-.tabs-members__nav::before{
-	position: absolute;
-	content: "";
+/* Родитель трёх кнопок */
+.tabs-members__nav {
+	margin: 0 auto 44px auto; /* Центрируем по горизонтали, даем отступ вниз */
+	width: 474px; /* Фиксированная ширина */
+	height: 72px; /* Фиксированная высота */
+	display: flex; /* Заставит детей встать в ряд */
 	border-radius: 14px;
 	background-color: rgba(33, 123, 244, 0.06);
-	padding: 28px 48px;
-	width: 474px; 
-	z-index: -1;
 }
-.tabs-members__button{
-	letter-spacing: 0.01em;
+/* Сама по себе кнопка */
+.tabs-members__button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 16px;
-	text-align: center;
 	color: rgba(47, 44, 74, 0.8);
-	letter-spacing: 0.01em;
-	padding-right: 100px;
-	margin-bottom: 44px;
-	background-color: inherit;
-	/* border-radius: 14px;
-	background-color: rgba(33, 123, 244, 0.06);
-	padding: 28px 48px; */
+	background: none;
+	border-radius: 14px;
+	display: flex; /* Простой способ зацентрировать текст кнопки - flex+jcc+aic */
+	align-items: center;
+	justify-content: center;
+	flex: 1; /* Каждый ребёнок будет занимать одну часть родителя. Они растянутся, разделят родителя поровну между собой */
+	margin: 10px 5px; /* Отступы у кнопок от края и от друг от друга (вроде по макету так это выглядит) */
 }
-.tabs-members__button{
-
-}
+/* Кнопка, когда активна */
 .tabs-members__button.active {
-	padding: 20px 49px;
 	background-color:  rgba(33, 123, 244, 1);
 	box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
-	border-radius: 14px;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 16px;
