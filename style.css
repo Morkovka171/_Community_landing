@@ -929,6 +929,7 @@ input {
 	flex: 1;
 	/* Каждый ребёнок будет занимать одну часть родителя. Они растянутся, разделят родителя поровну между собой */
 	margin: 10px 5px;
+	cursor: pointer;
 	/* Отступы у кнопок от края и от друг от друга (вроде по макету так это выглядит) */
 }
 
@@ -1239,10 +1240,14 @@ input {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	gap: 100px;
 }
 .footer__item {
 	font-size: 16px;
 	letter-spacing: 0.0125em;
+	display: flex;
+	flex-direction: column;
+	min-width: 115px;
 }
 .footer__title {
 	padding-bottom: 25px;
@@ -1257,8 +1262,14 @@ input {
 	font-size: 20px;
 	color: #FFFFFF;
 }
+.footer__title:hover{
+	text-decoration: underline;
+}
 .footer__links {
 	padding-bottom: 20px;
+}
+.footer__links:hover {
+	text-decoration: underline;
 }
 .footer__subscribe {
 	max-width: 339px;
@@ -1273,24 +1284,84 @@ input {
 	color: #E7E7E7;
 	padding-bottom: 32px;
 }
-
-.footer__input{
+.footer__subscribe_form{
 	position: relative;
+	display: flex;
+}
+.footer__input{
 	background-color: inherit;
-	text-align: center;
+
 	border: 1px solid rgba(255, 255, 255, 0.85);
 	border-radius: 12px;
-	padding: 18px 24px 0px 0px ; 
+	padding: 0px 0px 0px 16px ; 
 	height: 48px;
 	width: 300px;
+	flex: 1 1 auto;
+
 }
 .footer__subscribe_btn {
 	position: absolute;
 	background: #FFFFFF;
 	border-radius: 12px;
 	padding: 16px 24px;
-	right: 100px;
+	right: 0px;
 	height: 48px;
 	font-weight: 500;
 	font-size: 16px;
+	cursor: pointer;
+	flex: 0 0 126px;
+}
+.footer__input::placeholder {
+	text-align: left;
+	letter-spacing: 0.0125em;
+	color: #717179;
+	text-align: left;
+}
+@media (max-width: 1170.98px) {
+	.footer__items {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 450.98px) {
+	.footer {
+		padding-top: 48px;
+		padding-bottom: 45px;
+	}
+	.footer__items {
+		gap: 50px;
+	}
+}
+.footertwo__body {
+	background-color: #20202D;
+	padding: 31px 0;
+}
+.footer__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 80px;
+}
+.footertwo__text {
+	font-weight: 400;
+	font-size: 14px;
+	color: #F6F6F6;
+}
+.footertwo__logo {
+}
+.footertwo__social {
+}
+@media (max-width: 710px) {
+	.footer__container{
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+}
+@media (max-width: 364px) {
+	.footer__container{
+	gap: 20px;
+	}
 }
