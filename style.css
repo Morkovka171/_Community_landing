@@ -157,7 +157,7 @@ input {
 }
 
 .menu__input {
-	background: url(images/search.svg) 0px 20px no-repeat;
+	background: url('images/search.svg') 0px 20px no-repeat;
 	margin-right: 42px;
 	width: 105px;
 	height: 50px;
