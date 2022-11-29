@@ -157,7 +157,7 @@ input {
 }
 
 .menu__input {
-	background: url(../images/search.svg) 0px 20px no-repeat;
+	background: url(images/search.svg) 0px 20px no-repeat;
 	margin-right: 42px;
 	width: 105px;
 	height: 50px;
@@ -443,7 +443,7 @@ input {
 }
 
 .social__item {
-	background: url(../images/Social/dotts.svg) no-repeat;
+	background: url(images/Social/dotts.svg) no-repeat;
 	padding-left: 30px;
 	padding-bottom: 16px;
 	font-weight: 500;
@@ -550,7 +550,7 @@ input {
 }
 
 .rating__title {
-	background: url(../images/Rating/Star.svg) 0 0 no-repeat;
+	background: url(images/Rating/Star.svg) 0 0 no-repeat;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 20px;
@@ -561,7 +561,7 @@ input {
 }
 
 .rating__subtitle {
-	background: url(../images/Rating/people.jpg) 0 0 no-repeat;
+	background: url(images/Rating/people.jpg) 0 0 no-repeat;
 	font-weight: 500;
 	line-height: 18px;
 	color: #5D5B70;
@@ -585,7 +585,7 @@ input {
 }
 
 .rating__link {
-	background: url(../images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
+	background: url(images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
 	font-weight: 500;
 	line-height: 16px;
 	color: #4A4A56;
@@ -594,7 +594,7 @@ input {
 
 .rating__link:hover {
 	color: #217BF4;
-	background: url(../images/Rating/ArrowRight.svg) 164px 6px no-repeat;
+	background: url(images/Rating/ArrowRight.svg) 164px 6px no-repeat;
 }
 
 .awards__content {
@@ -613,7 +613,7 @@ input {
 }
 
 .awards__title {
-	background: url(../images/Rating/Trophy.svg) 0 -4px no-repeat;
+	background: url(images/Rating/Trophy.svg) 0 -4px no-repeat;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 20px;
@@ -623,7 +623,7 @@ input {
 }
 
 .awards__subtitle {
-	background: url(../images/Rating/git.jpg) 0 -1px no-repeat;
+	background: url(images/Rating/git.jpg) 0 -1px no-repeat;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 18px;
@@ -649,7 +649,7 @@ input {
 
 .awards__link {
 	color: #4A4A56;
-	background: url(../images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
+	background: url(images/Rating/ArrowRightblack.svg) 164px 6px no-repeat;
 	font-weight: 500;
 	line-height: 16px;
 	padding-right: 20px;
@@ -657,7 +657,7 @@ input {
 
 .awards__link:hover {
 	color: #217BF4;
-	background: url(../images/Rating/ArrowRight.svg) 164px 6px no-repeat;
+	background: url(images/Rating/ArrowRight.svg) 164px 6px no-repeat;
 }
 
 .achiev__content {
@@ -693,7 +693,7 @@ input {
 }
 
 .achiev__link {
-	background: url(../images/Rating/ArrowRightwhite.svg) 140px 25px no-repeat;
+	background: url(images/Rating/ArrowRightwhite.svg) 140px 25px no-repeat;
 	background-color: #217BF4;
 	box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
 	border-radius: 14px;
@@ -1174,7 +1174,7 @@ input {
 .news__items:nth-child(1)::before {
 	content: "";
 	position: absolute;
-	background: url(../images/News/dot.svg) -15px 0 no-repeat;
+	background: url(images/News/dot.svg) -15px 0 no-repeat;
 	width: 137px;
 	height: 152px;
 	top: -30px;
@@ -1186,7 +1186,7 @@ input {
 	font-size: 20px;
 	line-height: 32px;
 	color: #2F2C4A;
-	background: url(../images/News/Line.svg) 0px 15px no-repeat;
+	background: url(images/News/Line.svg) 0px 15px no-repeat;
 	padding-left: 65px;
 }
 
@@ -1197,13 +1197,13 @@ input {
 }
 
 .news__content_link {
-	background: url(../images/News/ArrowRight.svg) 145px 7px no-repeat;
+	background: url(images/News/ArrowRight.svg) 145px 7px no-repeat;
 	color: #656464;
 	padding-right: 80px;
 }
 
 .news__content_link:hover {
-	background: url(../images/News/ArrowRightblue.svg) 145px 7px no-repeat;
+	background: url(images/News/ArrowRightblue.svg) 145px 7px no-repeat;
 	color: #217BF4;
 }
 
